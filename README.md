@@ -42,20 +42,21 @@ Confusion Matrix Menampilkan jumlah prediksi benar (True Positive dan True Negat
 ## 2. Data Understanding
 Dataset ini terdiri dari 83.573 baris dan 11 kolom. Setiap baris merepresentasikan informasi terkait satu pemesanan, dengan berbagai atribut yang menjelaskan detail pemesanan seperti asal pelanggan, tipe reservasi, dan status pembatalan. Berikut adalah cuplikan data:
 
-Attributes Information
+**Attributes Information**
 
-Attribute	Data Type	Description
-country	Object	Negara asal pelanggan.
-market_segment	Object	Penunjukan segmen pasar.
-previous_cancellations	Integer	Jumlah pemesanan sebelumnya yang dibatalkan oleh pelanggan sebelum pemesanan saat ini.
-booking_changes	Integer	Jumlah perubahan yang dilakukan pada pemesanan sejak dimasukkan hingga saat check-in/batal.
-deposit_type	Object	Indikasi apakah pelanggan melakukan deposit untuk menjamin pemesanan.
-days_in_waiting_list	Integer	Jumlah hari pemesanan berada dalam daftar tunggu sebelum dikonfirmasi kepada pelanggan.
-customer_type	Object	Tipe pemesanan (misalnya: Transient, Contract, Transient-Party).
-reserved_room_type	Object	Kode jenis kamar yang dipesan. Kode digunakan untuk menjaga kerahasiaan.
-required_car_parking_spaces	Integer	Jumlah ruang parkir mobil yang dibutuhkan oleh pelanggan.
-total_of_special_requests	Integer	Jumlah permintaan khusus yang diajukan oleh pelanggan (misalnya: tempat tidur twin atau lantai tinggi).
-is_canceled	Integer	Nilai yang menunjukkan apakah pemesanan dibatalkan (1) atau tidak (0).
+| **Attribute** | **Data Type** | **Description** |
+| --- | --- | --- |
+country|Object|Negara asal pelanggan.
+market_segment|Object|Penunjukan segmen pasar.
+previous_cancellations|Integer|Jumlah pemesanan sebelumnya yang dibatalkan oleh pelanggan sebelum pemesanan saat ini.
+booking_changes|Integer|Jumlah perubahan yang dilakukan pada pemesanan sejak dimasukkan hingga saat check-in/batal.
+deposit_type|Object|Indikasi apakah pelanggan melakukan deposit untuk menjamin pemesanan.
+days_in_waiting_list|Integer|Jumlah hari pemesanan berada dalam daftar tunggu sebelum dikonfirmasi kepada pelanggan.
+customer_type|Object|Tipe pemesanan (misalnya: Transient, Contract, Transient-Party).
+reserved_room_type|Object|Kode jenis kamar yang dipesan. Kode digunakan untuk menjaga kerahasiaan.
+required_car_parking_spaces|Integer|Jumlah ruang parkir mobil yang dibutuhkan oleh pelanggan.
+total_of_special_requests|Integer|Jumlah permintaan khusus yang diajukan oleh pelanggan (misalnya: tempat tidur twin atau lantai tinggi).
+is_canceled|Integer|Nilai yang menunjukkan apakah pemesanan dibatalkan (1) atau tidak (0).
 
 
 ## 3. Data Modelling
